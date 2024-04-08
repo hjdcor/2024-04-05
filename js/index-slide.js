@@ -7,7 +7,8 @@ $(function(){
         pause : 3000,
         speed : 500,
         pager: true,
-        slideWidth: 1100
+        slideWidth: 1100,
+        touchEnabled : false
     });
 })
 
