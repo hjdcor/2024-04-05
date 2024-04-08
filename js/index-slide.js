@@ -1,14 +1,14 @@
 $(function(){
     // slick slider
     $('.bxslider').bxSlider({
-        touchEnabled : false,
         auto: true,
         autoControls: true,
         stopAutoOnClick: true,
         pause : 3000,
         speed : 500,
         pager: true,
-        slideWidth: 1100
+        slideWidth: 1100,
+        touchEnabled : false
     });
 })
 
