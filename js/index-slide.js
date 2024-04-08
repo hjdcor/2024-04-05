@@ -8,7 +8,7 @@ $(function(){
         speed : 500,
         pager: true,
         slideWidth: 1100,
-        touchEnabled : false
+        autoHover: true
     });
 })
 
