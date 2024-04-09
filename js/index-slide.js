@@ -8,7 +8,7 @@ $(function(){
         speed : 500,
         pager: true,
         slideWidth: 1100,
-        autoHover: true
+        touchEnabled : (navigator.maxTouchPoints > 0),
     });
 })
 
